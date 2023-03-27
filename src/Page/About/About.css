@@ -1,0 +1,21 @@
+.container-about{
+    height: 90vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-about{
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container-about{
+        height: 135vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container-about{
+        height: 150vh;
+    }
+}

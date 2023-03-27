@@ -1,0 +1,104 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-family: "Montserrat";
+  color: #ff6060;
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.content b {
+  font-size: 36px;
+  background-color: white;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tags li {
+  justify-content: flex-start;
+  color: white;
+  background-color: #ff6060;
+  border-radius: 10px;
+  width: 115px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.bloc-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.host {
+  display: flex;
+}
+
+.host img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+
+.host p {
+  width: 64px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.text-collapse {
+  display: flex;
+  margin: 10px;
+  column-gap: 76px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.text-collapse div {
+  width: 90%;
+}
+
+@media screen and (max-width: 1024px) {
+  .text-collapse {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-collapse {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text-collapse div {
+    width: 95%;
+    margin-left: 5px;
+  }
+  .content{
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .bloc-right{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content b{
+    font-size: 18px;
+  }
+  .content p{
+    font-size: 12px;
+  }
+  .Stars img{
+    width: 25px;
+    height: 25px;
+  }
+}

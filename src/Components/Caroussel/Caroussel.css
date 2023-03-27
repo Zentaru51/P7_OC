@@ -1,0 +1,61 @@
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    width: 95%;
+    margin: auto;
+}
+
+.images{
+    border-radius: 25px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.Vector{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.nextVector{
+    height: 80px;
+    width: 50px;
+    rotate: 90deg;
+    cursor: pointer;
+    top: 50%;
+    right: 0;
+    padding: 0;
+}
+
+.prevVector{
+    height: 80px;
+    width: 50px;
+    rotate: -90deg;
+    cursor: pointer;
+    top: 50%;
+    right: 0;
+    padding: 0;
+}
+
+.compteur{
+    position: absolute;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 25px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+@media screen and (max-width : 768px) {
+    .compteur{
+        display: none;
+    }
+}

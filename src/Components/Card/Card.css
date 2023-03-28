@@ -29,3 +29,10 @@ h3{
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width : 768px) {
+  .Card img{
+    width: 330px;
+    height: 300px;
+  }
+}

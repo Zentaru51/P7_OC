@@ -1,3 +1,7 @@
+.bodyNotFound{
+  height: 78vh;
+}
+
 .blocNotFound {
   display: flex;
   flex-direction: column;

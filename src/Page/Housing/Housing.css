@@ -1,5 +1,5 @@
 .container-housing{
-  height: 100vh;
+  min-height: 78vh;
 }
 
 .content {
@@ -79,9 +79,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .container-housing{
-    height: 120vh;
-  }
   .text-collapse {
     flex-direction: column;
     align-items: center;

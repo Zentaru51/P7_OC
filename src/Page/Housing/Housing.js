@@ -10,7 +10,7 @@ function Housing() {
   const { id } = useParams();
   const dataHousing = data.find((Element) => Element.id === id);
   return (
-    <>
+    <div className="container-housing">
       <Caroussel pictures={dataHousing.pictures} title={dataHousing.title} />
       <div className="content">
         <div className="bloc-left">
@@ -40,7 +40,7 @@ function Housing() {
         <Collapse description={dataHousing.description} title="Description" />
         <Collapse description={dataHousing.equipments} title="Equipements"/>
       </div>
-    </>
+    </div>
   );
 }
 export default Housing;

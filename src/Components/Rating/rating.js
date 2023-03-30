@@ -11,8 +11,6 @@ function Rating({ rating }) {
   for (let index = 0; index < 5 - rating; index++) {
     emptyRating.push(index);
   }
-  console.log(fullRating);
-  console.log(emptyRating);
   return (
     <div className="Stars">
       {fullRating.map((star) => <img src={Rate} alt="Full-Stars" key={star}/>)}
